@@ -13,8 +13,11 @@ public class NextActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_next);
         Intent intent = getIntent();
+        //recebe o texto da interface interior
         String texto = intent.getStringExtra("Texto");
+        //seleciona a label da interface
         TextView tvExibir = findViewById(R.id.tvExibir);
+        //reescreve na label com o texto dado
         tvExibir.setText(texto);
 
     }
