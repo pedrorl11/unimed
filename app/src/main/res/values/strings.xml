@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Unimed</string>
+    <string name="et_texto_hint">Número de cartão do plano</string>
+    <string name="btn_enviar">Enviar</string>
+</resources>
